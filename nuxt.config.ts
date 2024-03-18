@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   pruvious: {
     database: process.env.NUXT_PRUVIOUS_DATABASE,
     jwt: {
-      secretKey: "J7cYZrfdWCGlJMG0D6kQdIAIF8m4bSGEjezglrGrpWZQaLQLinmAf_dMo5LkoK8B"
+      secretKey: process.env.NUXT_PRUVIOUS_JWT_KEY
     }
   }
 })
